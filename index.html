@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="shortcut icon" href="./photos/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="sidebar">
+                <div class="nav">
+                    <div class="nav-option" style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+                <div class="library">
+                    <div class="option">
+                        <div class="library-option nav-option">
+                            <img src="./photos/library_icon.png" alt="library_icon">
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="lib-box ">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        <div class="box">
+                            <p class="box-p1">Let's find some podcast to follow</p>
+                            <p class="box-p2">We'll keep you   updated on new episodes</p>
+                            <button class="badge">Browse podcast</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content">
+                <div class="stiky-nav">
+                    <div class="stiky-nav-icon">
+                        <img src="./photos/backward_icon.png" alt="backward_icon">
+                        <img src="./photos/forward_icon.png" alt="forward_icon" class="hide">
+                    </div>
+                    <div class="stiky-nav-option">
+                        <button class="badge nav-items hide">Exolore Primium</button>
+                        <button class="badge nav-items dark-badge"><i class="fa-solid fa-circle-arrow-down"style="margin-right: 5px;"></i>Install App</button>
+                        <i class="fa-regular fa-user nav-items" ></i>
+                    </div>
+                </div>
+                
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./photos/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/hot.png" class="card-img">
+                        <p class="card-title">Hot Hits Hindi</p>
+                        <p class="card-info">Hottest hindi music served here, cover...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/str.png" class="card-img">
+                        <p class="card-title">Stree 2 All songs</p>
+                        <p class="card-info">Stree 2 movie all song at one place...</p>
+                    </div>
+                </div>
+
+
+                <h2>Made for you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./photos/mix1.png" class="card-img">
+                        <p class="card-title">Daily Mix 1</p>
+                        <p class="card-info">Pritam, Yo Yo Honey Singh, Mithoon an...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/mix2.png" class="card-img">
+                        <p class="card-title">Daily Mix 2</p>
+                        <p class="card-info">Diljit Dosanjh, Guru Randhawa, Akhil...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/mix3.png" class="card-img">
+                        <p class="card-title">Daily Mix 3</p>
+                        <p class="card-info">Diljit Dosanjh, Guru Randhawa, Mahajon...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/mix4.png" class="card-img">
+                        <p class="card-title">Daily Mix 4</p>
+                        <p class="card-info">Atif Aslam, Yo Yo Honey Singh...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/mix5.png" class="card-img">
+                        <p class="card-title">Daily Mix 5</p>
+                        <p class="card-info">Vishrukh Parikh,AKASH MEHTA...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/mix6.png" class="card-img">
+                        <p class="card-title">Daily Mix 6</p>
+                        <p class="card-info">Arijit Singh, Sachin-Jigar, Pritam and...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./photos/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye jinah Sonna</p>
+                        <p class="card-info">Pritam</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/card3img.jpeg" class="card-img">
+                        <p class="card-title">Mere pass tum ho</p>
+                        <p class="card-info">Atif Aslam...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/dek.png" class="card-img">
+                        <p class="card-title">Dekha Tenu (From "Mr.And Mrs...</p>
+                        <p class="card-info">jaani,Mohammad Faiz...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/goat.png" class="card-img">
+                        <p class="card-title">G.O.A.T</p>
+                        <p class="card-info">Diljit Dosanjh...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/desi.png" class="card-img">
+                        <p class="card-title">Desi Boyz</p>
+                        <p class="card-info">Pritam</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./photos/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./photos/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="music_player">
+                <div class="album">
+                    <div class="song">
+                        <img src="./photos/album_picture.jpeg" alt="" style="height: 2.25rem;">
+                        <div class="album-info">
+                            <p class="para1">Daylight</p>
+                            <p class="para2">devid Kushner</p>
+                        </div>
+                    </div>
+                    <div class="album-icon">
+                        <img src="./photos/album_icon1.png" alt="">
+                        <img src="./photos/album_icon2.png" alt="" style="height: 2.5rem;padding: 0.75rem;">
+                    </div>
+                </div>
+                <div class="player">
+                    <div class="player-controls">
+                        <img src="./photos/player_icon1.png" class="player-control-icon">
+                        <img src="./photos/player_icon2.png" class="player-control-icon">
+                        <img src="./photos/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;">
+                        <img src="./photos/player_icon4.png" class="player-control-icon">
+                        <img src="./photos/player_icon5.png" class="player-control-icon">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="curr-time">00:00</span>
+                        <input type="range" min="0" max="100" class="progress-bar">
+                        <span class="total-time">3:33</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <img src="./photos/controls_icon1.png" class="controls-icon">
+                    <img src="./photos/controld_icon2.png" class="controls-icon">
+                    <img src="./photos/controls_icon3.png" class="controls-icon" style="height: 1.2rem;opacity: 0.75;">
+                    <img src="./photos/controls_icon4.png" class="controls-icon" style="height: 1.1rem;opacity: 0.75;">
+                    <img src="./photos/controls_icon5.png" class="controls-icon">
+                    <input type="range" class="progress-bar small">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
